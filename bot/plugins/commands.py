@@ -69,7 +69,7 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = f"{file_name} \n @malayalam_rocker_s",
+                caption = f"{file_name} \n @trollcinemates",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
